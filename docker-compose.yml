@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  backend:
+    image: srv-docker:v1
+    build: .
+    ports:
+      - 8888:9999
